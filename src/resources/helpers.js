@@ -6,7 +6,7 @@ import './styles.css'
 const doubleSide = THREE.DoubleSide
 const deg = THREE.Math.degToRad
 const colors = ['#21242d', '#ea5158', '#0d4663', '#ffbcb7', '#2d4a3e', '#8bd8d2']
-const svgs = ['0', '1', '2', '3', '4','5','6']
+const svgs = ['image']
   .map(name => `assets/${name}.svg`)
   .map(
     url =>
